@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+    <h2>Mostly Essential Links</h2>
     <ul>
       <li>
         <a
@@ -77,6 +77,23 @@
           target="_blank"
         >
           awesome-vue
+        </a>
+      </li>
+    </ul>
+    <h2>Other pages</h2>
+    <ul>      
+       <li>
+        <a
+          href="#/portfolio"
+        >
+          portfolio
+        </a>
+      </li>
+       <li>
+        <a
+          href="#/contact"
+        >
+          contact
         </a>
       </li>
     </ul>
