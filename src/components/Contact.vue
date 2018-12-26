@@ -5,16 +5,11 @@
     <h3>@corintxt</h3>
     
     <br>
-    <a
-      href="#/"
-    >
-      home
-    </a><span> | </span>
-    <a
-      href="#/portfolio"
-    >
-      portfolio
-    </a>
+  <span>
+      <a href="#/" > home</a>
+    </span>
+       |
+    <a href="#/portfolio" > portfolio </a>
   </div>
 </template>
 
@@ -43,6 +38,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #42a1b9;
 }
 </style>
