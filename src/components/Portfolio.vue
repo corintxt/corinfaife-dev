@@ -1,15 +1,26 @@
 <template>
   <div class="hello">
     <h1>Portfolio</h1>
-    <h2>Here is some recent work:</h2>
+    <h2>A non-exhaustive list of articles:</h2>
       <div class="portfolio-container">
-        <ul id="portfolio">
-          <li v-for="article in articles">
-            <a v-bind:href="article.url"> {{ article.title }} </a> - {{ article.publication }}
-            <br>
-            {{ article.date }}
-          </li>
-        </ul>
+        <table id="portfolio">
+           <tr>
+            <th>Date</th>
+            <th>Title</th> 
+            <th>Publication</th>
+          </tr>
+          <tr v-for="article in articles">
+            <td>
+             {{ article.date }}
+            </td>
+            <td>
+              <a v-bind:href="article.url"> {{ article.title }} </a>
+            </td>
+            <td>
+              <em>{{ article.publication }}</em>
+            </td>
+          </tr>
+        </table>
       </div>
     <br>
     <span>
@@ -21,13 +32,13 @@
 </template>
 
 <script>
-import articles from "../assets/articles.json"
+import articlesJSON from "../assets/articles.json"
 
 export default {
   name: 'Portfolio',
   data () {
     return {
-      articles: articles.articles
+      articles: articlesJSON.articles
     }
   }
 }
@@ -48,9 +59,19 @@ li {
 a {
   color: #42a1b9;
 }
+
+/* Style the portfolio table */
 .portfolio-container {
-  max-width: 50%;
+  max-width: 60%;
   margin: auto;
+}
+
+#portfolio {
+  text-align: left;
+}
+
+td {
+  vertical-align: top;
 }
 
 </style>
