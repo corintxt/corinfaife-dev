@@ -1,16 +1,11 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Use the details below to contact me:</h2>
-    <h3>
-      t: <a href="https://twitter.com/corintxt" target="_blank">@corintxt</a>
-    </h3>
-     <h3>
-      e: <a href="mailto:corin.faife@gmail.com" target="_blank">corin.faife[at]gmail.com</a>
-    </h3>
-     
+    <h2>About me:</h2>
+    <h3>[tk]</h3>
+    
     <br>
-  <span>
+    <span>
       <a href="#/" > home</a>
     </span>
        |
@@ -19,17 +14,17 @@
     </span>
        |
     <span>
-      <a href="#/about" > about </a>
+      <a href="#/contact" > contact </a>
     </span>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Contact',
+  name: 'About',
   data () {
     return {
-      msg: 'Contact'
+      msg: 'This is the about page'
     }
   }
 }

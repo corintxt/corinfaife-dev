@@ -1,7 +1,6 @@
 <template>
-  <div class="hello">
-    <h2>About me:</h2>
-    <h1>Corin Faife is a journalist  <br>interested in
+  <div class="intro">
+    <h1>Corin Faife is a journalist <br> interested in
       <vue-typer  
         :text='["technology","automation","surveillance","blockchain","accountability", "web 3.0"]'
         :repeat='Infinity'
@@ -31,6 +30,13 @@
           contact
         </a>
       </li>
+       <li>
+        <a
+          href="#/about"
+        >
+          about
+        </a>
+      </li>
     </ul>
   </div>
 </template>
@@ -48,4 +54,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.intro {
+  margin-top: 10%;
+}
 </style>
