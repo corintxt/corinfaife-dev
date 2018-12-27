@@ -21,15 +21,13 @@
 </template>
 
 <script>
+import articles from "../assets/articles.json"
+
 export default {
   name: 'Portfolio',
   data () {
     return {
-      articles: [
-      { date: "2018-10-24", title: "The Battle Over Europe’s Air", publication: "HowWeGetToNext", url: "https://howwegettonext.com/the-battle-over-europes-air-c646e041c7f"},
-      { date: "2018-09-27", title: "The Authors of 'Blockchain and the Law' Want You to Rethink the Internet", publication: "BREAKER Magazine", url: "https://breakermag.com/the-authors-of-blockchain-and-the-law-want-you-to-rethink-the-internet/" },
-      { date: "2018-07-19", title: "'Inspector Gadget': How drones are saving lives", publication: "UnHerd.com", url: "https://unherd.com/2018/07/inspector-gadget-drones-saving-lives/"}
-]
+      articles: articles.articles
     }
   }
 }
