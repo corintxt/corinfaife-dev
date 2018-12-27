@@ -1,10 +1,9 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
     <h2>About me:</h2>
-    <h3>Corin Faife is a journalist interested in
+    <h1>Corin Faife is a journalist  <br>interested in
       <vue-typer  
-        :text='["technology","automation","surveillance","blockchain","accountability"]'
+        :text='["technology","automation","surveillance","blockchain","accountability", "web 3.0"]'
         :repeat='Infinity'
         :shuffle='false'
         initial-action='typing'
@@ -16,7 +15,7 @@
         :erase-on-complete='false'
         caret-animation='blink'>
       </vue-typer>
-    </h3>
+    </h1>
     <ul>      
        <li>
         <a
