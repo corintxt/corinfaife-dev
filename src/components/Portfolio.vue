@@ -6,7 +6,7 @@
         <table id="portfolio">
            <tr>
             <th>Date</th>
-            <th>Title</th> 
+            <th>Title</th>
             <th>Publication</th>
           </tr>
           <tr v-for="article in articles">
@@ -27,7 +27,13 @@
       <a href="#/" > home</a>
     </span>
        |
-    <a href="#/contact" > contact </a>
+    <span>
+      <a href="#/contact" > contact </a>
+    </span>
+       |
+    <span>
+      <a href="#/about" > about </a>
+    </span>
   </div>
 </template>
 

@@ -10,7 +10,7 @@
     </h3>
      
     <br>
-  <span>
+    <span>
       <a href="#/" > home</a>
     </span>
        |
