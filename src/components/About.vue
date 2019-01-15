@@ -1,11 +1,17 @@
 <template>
-  <div class="hello">
+  <div class="about">
     <h1>{{ msg }}</h1>
-    <h2>About me:</h2>
-    <h3>[tk]</h3>
-    <p>I also write Corincast, a (roughly) bi-weekly newsletter on TK and TK, published with Tinyletter.</p> 
+    <h2>Hi.</h2>
+    <div class="about-body">
+      <p>I'm a journalist interested in technology, politics, and the politics of technology.</p>
+      <p>I think a lot about the incentives baked into social and technological systems,
+        and how these may bring the interests of owners/coordinators and end users into conflict.</p>
+      <p>Having started my freelance career in London, then Montréal, I'm now based in New York.</p>
+      <p>I also write Corincast, a bi-weekly(ish) newsletter with short essays and interesting links, published through Tinyletter.</p> 
+   </div>
+    
     <form style="padding:3px;text-align:center;" action="https://tinyletter.com/corincast" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/corincast', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-      <p>
+      <p id="subscribe">
         <label for="tlemail">To subscribe, enter your email here:</label>
       </p>
       <p>
@@ -37,7 +43,7 @@ export default {
   name: 'About',
   data () {
     return {
-      msg: 'This is the about page'
+      msg: 'About'
     }
   }
 }
@@ -45,4 +51,17 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.about {
+  width: 50%;
+  margin: auto;
+}
+
+.about-body{
+  text-align: left;
+}
+
+#subscribe {
+    margin-block-start: .2em;
+}
+
 </style>
