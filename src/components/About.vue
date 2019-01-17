@@ -3,10 +3,11 @@
     <h1>{{ msg }}</h1>
     <h2>Hi.</h2>
     <div class="about-body">
-      <p>I'm a journalist interested in technology, politics, and the politics of technology.</p>
+      <p>I'm a journalist interested in technology, politics, and the politics of technology. </p>
       <p>I think a lot about the incentives baked into social and technological systems,
-        and how these may bring the interests of owners/coordinators and end users into conflict.</p>
-      <p>Having started my freelance career in London, then Montréal, I'm now based in New York.</p>
+        and how these bring the interests of owners, coordinators and end users into conflict.</p>
+      <p>I'm also fascinated by self-governing communities and alternatives to hierarchical and/or capitalist modes of organisation.</p>
+      <p>After started my career in London, then moving to Montréal, I'm now based in New York.</p>
       <p>I also write Corincast, a bi-weekly(ish) newsletter with short essays and interesting links, published through Tinyletter.</p> 
    </div>
     

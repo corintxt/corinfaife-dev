@@ -1,12 +1,12 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Use the details below to contact me:</h2>
+    <h2>Use these details to get in touch:</h2>
     <h3>
-      t: <a href="https://twitter.com/corintxt" target="_blank">@corintxt</a>
+      twitter: <a href="https://twitter.com/corintxt" target="_blank">@corintxt</a>
     </h3>
      <h3>
-      e: <a href="mailto:corin.faife@gmail.com" target="_blank">corin.faife[at]gmail.com</a>
+      email: <a href="mailto:corin.faife@gmail.com" target="_blank">corin.faife[at]gmail.com</a>
     </h3>
      
     <br>

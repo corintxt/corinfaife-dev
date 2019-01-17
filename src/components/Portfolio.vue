@@ -10,13 +10,13 @@
             <th>Publication</th>
           </tr>
           <tr v-for="article in articles">
-            <td>
+            <td id="date">
              {{ article.date }}
             </td>
             <td>
               <a v-bind:href="article.url"> {{ article.title }} </a>
             </td>
-            <td>
+            <td id="publication">
               <em>{{ article.publication }}</em>
             </td>
           </tr>
@@ -64,6 +64,10 @@ export default {
 
 td {
   vertical-align: top;
+}
+
+#date {
+ width: 6em 
 }
 
 </style>
