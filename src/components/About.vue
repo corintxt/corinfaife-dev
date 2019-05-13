@@ -7,7 +7,8 @@
       <p>I think a lot about the incentives baked into social and technological systems,
         and how these bring the interests of owners, coordinators and end users into conflict.</p>
       <p>I'm also fascinated by self-governing communities and alternatives to hierarchical and/or capitalist modes of organisation.</p>
-      <p>After started my career in London, then moving to Montréal, I'm now based in New York.</p>
+      <p>After started my career in London, then moving to Montréal, I'm now based in New York, where I attended the 
+        <a href="https://www.recurse.com/" target="_blank">Recurse Center</a> programming retreat in spring 2019.</p>
       <p>I also write Corincast, a bi-weekly(ish) newsletter with short essays and interesting links, published through Tinyletter.</p> 
    </div>
     

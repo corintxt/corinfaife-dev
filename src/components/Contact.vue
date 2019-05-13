@@ -6,7 +6,7 @@
       twitter: <a href="https://twitter.com/corintxt" target="_blank">@corintxt</a>
     </h3>
      <h3>
-      email: <a href="mailto:corin.faife@gmail.com" target="_blank">corin.faife[at]gmail.com</a>
+      email: <a href="mailto:cf@corinfaife.co" target="_blank">cf@corinfaife.co</a>
     </h3>
      
     <br>
