@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import articlesJSON from "../assets/articles.json"
+import articlesJSON from "../assets/articles-stripped.json"
 
 export default {
   name: 'Portfolio',
