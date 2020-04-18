@@ -1,8 +1,8 @@
-# corinfaife-prototype
+# corinfaife.co
 
-> prototype website
+> Corin Faif personal website
 
-## Build Setup
+## VueJS Build Setup
 
 ``` bash
 # install dependencies
