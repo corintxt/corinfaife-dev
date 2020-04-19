@@ -2,7 +2,9 @@
   <div class="intro">
     <h1>Corin Faife is a journalist <br> interested in
       <vue-typer  
-        :text='["technology","automation","surveillance","blockchain","accountability", "web 3.0", "digital labour"]'
+        :text='["technology","automation","surveillance","AI","accountability","disinformation",
+              "deepfakes","digital labor","the gig economy","worker organizing", 
+              "the decentralized web"]'
         :repeat='Infinity'
         :shuffle='false'
         initial-action='typing'
