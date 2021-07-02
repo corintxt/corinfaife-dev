@@ -6,10 +6,11 @@
       <p>I'm a journalist interested in technology, politics, and the politics of technology. </p>
       <p>I think a lot about the incentives baked into social and technological systems,
         and how these bring the interests of owners, coordinators and end users into conflict.</p>
-      <p>I'm also fascinated by self-governing communities and alternatives to hierarchical and/or capitalist modes of organisation.</p>
       <p>After starting my career in London, then moving to Montréal, I'm now based in New York, where I attended the
         <a href="https://www.recurse.com/" target="_blank">Recurse Center</a> programming retreat in spring 2019.</p>
-      <p>Currently I'm working at <a href='https://www.witness.org/'>WITNESS</a> researching deepfakes and AI-driven media manipulation.</p>
+      <p>From 2019-2020 I worked at global nonprofit <a href='https://www.witness.org/'>WITNESS</a> researching deepfakes and AI-driven media manipulation.</p>
+      <p>Currently I'm a data journalist at <a href='https://themarkup.org/'>The Markup</a> working on the 
+      <a href="https://themarkup.org/series/citizen-browser">Citizen Browser</a> Facebook accountability project.</p>
    </div>
 
     <br>
